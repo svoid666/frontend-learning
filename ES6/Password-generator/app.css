@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9ddaf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    background-color: #ebf8f4;
+    width: 290px;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.generate-pass {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.generate-pass input {
+    margin: auto;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 245px;
+    height: 35px;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 0 0 2px;
+    color: #aaa9aa;
+}
+
+.inputs span {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.inputs label {
+    margin-left: 50px;
+    display: block;
+
+}
+
+.input-group {
+    margin-left: 45px;
+}
+
+.slider-container input {
+    width: 160px;
+}
+
+button {
+    width: 190px;
+    height: 33px;
+    border-radius: 15px;
+    margin-left: 50px;
+    background-color: #5ba086;
+    color: #ebf8f4;
+    font-weight: 1;
+    cursor: pointer;
+    border: none;
+}
