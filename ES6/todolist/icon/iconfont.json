@@ -1,0 +1,16 @@
+{
+  "id": "5213560",
+  "name": "denglu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "48509479",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    }
+  ]
+}
