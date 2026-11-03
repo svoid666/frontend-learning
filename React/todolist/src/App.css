@@ -1,0 +1,72 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn {
+  min-height: 32px;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #1689a6;
+}
+
+.btn-warning {
+  color: #47320a;
+  background: #f4c453;
+}
+
+.btn-danger {
+  color: #fff;
+  background: #dc5360;
+}
+
+.modal {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgb(0 0 0 / 42%);
+}
+
+.modal .inner {
+  width: min(100%, 420px);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+}
+
+.m-header {
+  margin-bottom: 18px;
+  color: var(--text-h);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content-wrapper {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .todo-item {
+    padding-right: 6px;
+  }
+}
